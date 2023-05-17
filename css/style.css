@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    text-decoration: none;
+}
+.blocks{
+    width: 87%;
+    margin: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.graham{
+    height: 350px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid rgb(103, 44, 9);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    /* text-decoration: none; */
+}
+/* .grahamCSS{
+    text-align: center;
+    margin-top: 20px;
+
+} */
+.search{
+    /* margin: 30px 50px; */
+    /* width: 100%;
+    margin: 30px auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    margin-top: 20px;
+}
